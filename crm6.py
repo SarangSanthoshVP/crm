@@ -18,6 +18,8 @@ import os
 # -------------------
 # Agent State 
 # -------------------
+
+# Define the structure of the agent's state
 class AgentState(TypedDict):
     user_input: str
     response: str
